@@ -73,7 +73,7 @@ class Details extends React.Component {
   }
 }
 
-const mapStateToProps = ( { theme }) => ({ theme });
+const mapStateToProps = ({ theme }) => ({ theme });
 
 
 const WrappedDetails = connect(mapStateToProps)(Details);
